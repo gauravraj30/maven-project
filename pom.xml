@@ -212,7 +212,10 @@
     <tag>HEAD</tag>
     <url>http://github.com/jleetutorial/maven-project</url>
   </scm>
-
+<properties>
+    <maven.compiler.source>7</maven.compiler.source>
+    <maven.compiler.target>7</maven.compiler.target>
+</properties>
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
